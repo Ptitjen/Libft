@@ -55,3 +55,5 @@ re:	fclean all
 
 bonus: ${BOBJS} ${OBJS}
 	ar rc ${NAME} ${OBJS} ${BOBJS}
+
+.PHONY: all clean fclean re
